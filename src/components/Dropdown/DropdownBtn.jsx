@@ -1,6 +1,6 @@
-function DropdownBtn({ children, handleOpen }) {
+function DropdownBtn({ children, openDropdown }) {
     return (
-        <button className='dropdown-btn' onClick={handleOpen}>
+        <button className='dropdown-btn' onClick={openDropdown}>
             {children}
         </button>
     );

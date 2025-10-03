@@ -23,7 +23,7 @@ export default function Layout({ children }) {
                 <div className="container nav">
                     <div className="logo"><img src={logo} alt="Weather Now" /></div>
                     <Dropdown>
-                        <DropdownBtn handleOpen={openDropdown}>
+                        <DropdownBtn openDropdown={openDropdown}>
                             <span><img src={icon_gear} alt="" /></span>
                             Units
                             <span><img src={dropdown_icon} alt="" /></span>
